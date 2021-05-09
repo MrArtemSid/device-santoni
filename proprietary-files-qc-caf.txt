@@ -208,9 +208,9 @@ vendor/lib64/hw/gatekeeper.msm8937.so|9a7297653a3b7af0a5922ac93c554e4f13e6958f
 # GPS - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|d458a2aadc1d00df4696d6793e550f4a9422a2c9
 vendor/bin/loc_launcher|684028ffab3ef293a241386710fe5855d2b2f70a
-vendor/bin/lowi-server|603ce51c1c18352aed201769072b59e7416ea462
-vendor/bin/xtra-daemon|4e8c3f602d2cf8860a633b08f757a000d87307b3
-vendor/bin/xtwifi-client|d30b75c26b24e7e1dff01e126dbe873e67a4bf58
+vendor/bin/lowi-server|68a0e045e178bf1fd8f15a95271120eac94cb6e0
+vendor/bin/xtra-daemon|f395a0a5d6b7425a8c651a22c2b02eee6c6073eb
+vendor/bin/xtwifi-client|d900f779b9bd74dfdb3894f1571a332f5fe11220
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|6a70a956838b5070d310acb6cc76181aa1b83be6
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
