@@ -35,7 +35,6 @@ private:
     ndk::ScopedAStatus setLightBattery(const HwLightState& state);
     ndk::ScopedAStatus setLightNotification(const HwLightState& state);
     ndk::ScopedAStatus setSpeakerLightLocked(const HwLightState& state);
-    ndk::ScopedAStatus handleSpeakerBatteryLocked();
 
     bool IsLit(uint32_t color);
     uint32_t RgbaToBrightness(uint32_t color);

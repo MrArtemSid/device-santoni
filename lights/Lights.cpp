@@ -111,13 +111,13 @@ ndk::ScopedAStatus Lights::setLightBacklight(const HwLightState& state) {
 
 ndk::ScopedAStatus Lights::setLightBattery(const HwLightState& state) {
     mBattery = state;
-    handleSpeakerBatteryLocked();
+    return setSpeakerLightLocked(mBattery);
     return ndk::ScopedAStatus::ok();
 }
 
 ndk::ScopedAStatus Lights::setLightNotification(const HwLightState& state) {
     mNotification = state;
-    handleSpeakerBatteryLocked();
+    return setSpeakerLightLocked(mNotification);
     return ndk::ScopedAStatus::ok();
 }
 
@@ -179,13 +179,6 @@ ndk::ScopedAStatus Lights::setSpeakerLightLocked(const HwLightState& state) {
         WriteToFile(kBlueLEDFile, blue);
     }
     return ndk::ScopedAStatus::ok();
-}
-
-ndk::ScopedAStatus Lights::handleSpeakerBatteryLocked() {
-    if (IsLit(mBattery.color))
-        return setSpeakerLightLocked(mBattery);
-    else
-        return setSpeakerLightLocked(mNotification);
 }
 
 // Utils
