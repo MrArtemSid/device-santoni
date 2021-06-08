@@ -457,7 +457,7 @@ vendor/lib/libdiag.so|32b8ee5f0d2b318dac621621ef2bab3b25fb37e0
 vendor/lib64/libdiag.so|4a40e46ed78eb28e35e827b8d77d0c82281c1d90
 
 # Radio - from LA.UM.9.6.2.r1-04100-89xx.0
-system_ext/framework/qti-telephony-common.jar|b6f4344c983a5b064801baec177d5accc0fde550
+system_ext/framework/qti-telephony-common.jar|c564e61243837f8fcbe95a9b7e36bf391c49e6c5
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|344ad9179560cc83b208f62fb009fdc2799609fd
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
