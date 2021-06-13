@@ -35,6 +35,7 @@ write_headers
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 write_makefiles "${MY_DIR}/proprietary-files-qc.txt" true
 write_makefiles "${MY_DIR}/proprietary-files-qc-caf.txt" true
+write_makefiles "${MY_DIR}/proprietary-files-qc-daisy.txt" true
 
 # We are done!
 write_footers
